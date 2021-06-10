@@ -1,6 +1,7 @@
 require('dotenv').config();
 const { Telegraf, Composer } = require('telegraf');
 
+// heroku config:set --app allit-bot BOT_TOKEN='1846915822:AAFkgQPuWpylMOImQRDA5KNzRLgwXWzTjVM'
 
 const token = process.env.BOT_TOKEN;
 

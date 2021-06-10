@@ -26,7 +26,14 @@ const google = (bool, ctx) => {
     )
 }
 
+const which = ctx => `Buyruq <a href='tg://user?id=${ctx.from.id}'> ` +
+                     `${ctx.from.first_name}</a> tomonidan ishga tushurildi.`
+
+const which_cb = (bool, ctx) => !bool ? `Sizga mumkin emas buni ko'rish` : ctx.chat.id
+
 module.exports = {
     doc,
-    google
+    google,
+    which,
+    which_cb
 }
