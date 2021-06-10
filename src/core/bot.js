@@ -21,7 +21,7 @@ try {
             webhook: {
                 domain: process.env.DOMAIN,
                 hookPath: '/bot',
-                port: parseInt(env.PORT)
+                port: parseInt(process.env.PORT)
             }
         })
             .then(async () => {

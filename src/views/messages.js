@@ -11,7 +11,7 @@ const doc = (bool, ctx) => {
         `Undan deyarli barcha savollarga javob topsa bo'larkan.\n` +
         `\n` +
         `Unga avtorlar shunchalik ko'p vaqt sarflashar ekanlar-u,` +
-        `lekin faqat sanoqlilargina o'qisharkan...`
+        `lekin faqat sanoqlilargina uni o'qisharkan...`
     )
 }
 

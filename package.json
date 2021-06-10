@@ -5,6 +5,9 @@
   "repository": "https://github.com/Jakhongiirr/Xeonitte_js_version.git",
   "author": "Jakhongiirr <ravshanovjahongir26@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node ./src/app.js"
+  },
   "dependencies": {
     "dotenv": "^10.0.0",
     "telegraf": "^4.3.0"
