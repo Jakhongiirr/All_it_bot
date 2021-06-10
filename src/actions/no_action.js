@@ -6,9 +6,9 @@ composer.on('new_chat_members', async (ctx, next) => {
         ctx.chat.type !== 'private' &&
         ctx.chat.id !== parseInt(-1001282844686)
     ) {
-        
+        await ctx.reply(`Fuu nimadir sasidimi...`)
         return (
-                ctx.reply(`Fuu nimadir sasidimi...`),
+                
                 ctx
                     .leaveChat()
                     .then()
