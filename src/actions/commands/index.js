@@ -1,0 +1,2 @@
+require('./doc');
+require('./google')
