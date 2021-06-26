@@ -1,4 +1,6 @@
-require('./doc');
+require('./doc')
 require('./google')
 require('./which')
-require('./me');
+require('./me')
+require('./yes')
+require('./src')

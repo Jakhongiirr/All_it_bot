@@ -32,15 +32,22 @@ const which = ctx => `Buyruq <a href='tg://user?id=${ctx.from.id}'> ` +
 const which_cb = (bool, ctx) => !bool ? `Sizga mumkin emas buni ko'rish` : ctx.chat.id
 
 const yes = () => `Ha, ismim Umar (Jo'shqin deb ham chaqirishadi)\n` +
-                  `\n`
+                  `\n` +
                   `Ha, Angular frontend dasturchiman\n` +
                   `\n` +
-                  `Ha, AQShning EPAM systems kompaniyasida ishlayman`
+                  `Ha, AQShning EPAM systems kompaniyasida ishlayman` +
+                  `\n` +
+                  `Va bularning hammasi kanalimda "info" qismida turibdi :)`
+
+const src = () => `Mening kodlarim ushbu github sahifada:\n` +
+                  `\n` +
+                  `https://github.com/Jakhongiirr/all_it_bot`
 
 module.exports = {
     doc,
     google,
     which,
     which_cb,
-    yes
+    yes,
+    src
 }
