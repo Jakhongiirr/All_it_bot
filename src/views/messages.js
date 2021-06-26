@@ -31,9 +31,16 @@ const which = ctx => `Buyruq <a href='tg://user?id=${ctx.from.id}'> ` +
 
 const which_cb = (bool, ctx) => !bool ? `Sizga mumkin emas buni ko'rish` : ctx.chat.id
 
+const yes = () => `Ha, ismim Umar (Jo'shqin deb ham chaqirishadi)\n` +
+                  `\n`
+                  `Ha, Angular frontend dasturchiman\n` +
+                  `\n` +
+                  `Ha, AQShning EPAM systems kompaniyasida ishlayman`
+
 module.exports = {
     doc,
     google,
     which,
-    which_cb
+    which_cb,
+    yes
 }
