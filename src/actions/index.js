@@ -1,3 +1,3 @@
-require('./no_action');
-require('./commands');
-require('./events');
+require("./no_action");
+require("./commands");
+require("./events");

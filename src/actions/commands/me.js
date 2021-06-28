@@ -1,7 +1,5 @@
-const { composer, middleware } = require('../../core/bot');
+const { composer, middleware } = require("../../core/bot");
 
-composer.command('me', ctx => {
-    return ctx.reply(ctx.from.id)
-})
+composer.command("me", (ctx) => ctx.reply(ctx.from.id));
 
-middleware(composer)
+middleware(composer);
